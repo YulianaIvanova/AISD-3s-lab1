@@ -147,7 +147,6 @@ void operations_on_polyline(polyline* ptr, int& n_polyline)
 
 int basic_menu()
 {
-	//polyline* ptr = new polyline[100];
 	polyline ptr[100];
 	polyline tmp;
 	int n_polyline = 0;//number of polylines in the collection
@@ -226,7 +225,6 @@ int basic_menu()
 			}
 		}
 	}
-	//delete_all_object(ptr);
     return 0;
 }
 

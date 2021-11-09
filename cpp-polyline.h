@@ -6,7 +6,6 @@ namespace cpp
 	{
 		double _x;
 		double _y;
-		
 	};
 
 	class polyline
@@ -38,6 +37,5 @@ namespace cpp
 	void print_collection(polyline* ptr, int& n_polyline);
 	void add_object(polyline* ptr, polyline newPolyline, int& n_polyline);
 	void delete_object(polyline* ptr, int index, int& n_polyline);
-	void delete_all_object(polyline* ptr);
 	
 }

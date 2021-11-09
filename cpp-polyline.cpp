@@ -228,11 +228,6 @@ namespace cpp
 		}
 	}
 		
-	//void delete_all_object(polyline* ptr)
-	//{
-	//	delete []ptr;
-	//	cout << "All object have been deleted!";
-	//}
 		
 	void print_collection(polyline* ptr, int& n_polyline)
 	{
